@@ -1,0 +1,43 @@
+:root {
+  --primary-color: #1b1b1b;
+  --text-color: white;
+}
+body {
+  background: var(--primary-color);
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 72px;
+  font-weight: bold;
+}
+h2 {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+}
+p {
+  font-family: "Roboto", sans-serif;
+
+  font-size: 18px;
+  font-weight: regular;
+}
+.hero {
+  background-image: url("imagine/bg.png");
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.text {
+  padding: 425px 276px 420px 301px;
+  text-align: center;
+  color: var(--text-color);
+}
+.button {
+  padding: 18px 30px;
+  border-radius: 50px;
+  text-transform: uppercase;
+}
+.imagine-galery {
+  place-items: stretch;
+}
