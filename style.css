@@ -40,4 +40,70 @@ p {
 }
 .imagine-galery {
   place-items: stretch;
+  place-items: center;
+}
+
+.about-content {
+  margin: 118px 0px;
+}
+.about {
+  align-items: center;
+}
+.shelley-photo {
+  width: 700px;
+}
+
+.about-content h1 {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 64px;
+  font-weight: bold;
+  color: var(--text-color);
+}
+.fa-facebook,
+.fa-instagram,
+.fa-linkedin {
+  color: var(--text-color);
+}
+
+.about-content h2 {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  color: #f65282;
+}
+
+.about-content h3 {
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.about-content p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: regular;
+  color: var(--text-color);
+}
+
+.about-content a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 18px 53px;
+  border-radius: 50px;
+  gap: 10px;
+}
+.camera {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 30px;
+  border-radius: 4px;
+  background-color: #2d2727;
 }
