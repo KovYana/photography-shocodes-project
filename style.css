@@ -24,6 +24,9 @@ p {
   font-size: 18px;
   font-weight: regular;
 }
+.logo {
+  max-width: 150px;
+}
 .hero {
   background-image: url("imagine/bg.png");
   background-repeat: no-repeat;
@@ -89,6 +92,15 @@ p {
   font-weight: regular;
   color: var(--text-color);
 }
+#mailto {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: regular;
+  color: var(--text-color);
+  text-decoration: none;
+  text-transform: lowercase;
+  padding: 0;
+}
 
 .about-content a {
   font-family: "Montserrat", sans-serif;
@@ -112,4 +124,7 @@ p {
 .fa-envelope,
 .fa-phone {
   margin-right: 15px;
+}
+.mailto {
+  text-decoration: none;
 }
