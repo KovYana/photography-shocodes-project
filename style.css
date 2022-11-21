@@ -2,6 +2,7 @@
   --primary-color: #1b1b1b;
   --text-color: white;
 }
+
 body {
   background: var(--primary-color);
 }
@@ -42,10 +43,11 @@ li p {
 .hero {
   background-image: url("imagine/bg.png");
   background-repeat: no-repeat;
-  width: 100%;
+  background-position: center;
 }
 .text {
-  padding: 425px 276px 420px 301px;
+  padding: 304px 233px;
+  margin-bottom: 50px;
   text-align: center;
   color: var(--text-color);
 }
@@ -143,4 +145,31 @@ li p {
 }
 .mailto {
   text-decoration: none;
+}
+.github {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: regular;
+  color: var(--text-color);
+}
+.github a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+.github a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 1000px) {
+  .text {
+    padding: 100px 70px;
+  }
+  h1 {
+    font-size: 44px;
+  }
+  .social-media {
+    display: none;
+  }
+  .about-content h1 {
+    font-size: 40px;
+  }
 }
