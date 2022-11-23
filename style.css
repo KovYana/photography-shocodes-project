@@ -164,12 +164,18 @@ li p {
     padding: 100px 70px;
   }
   h1 {
-    font-size: 44px;
+    font-size: 30px;
   }
   .social-media {
     display: none;
   }
   .about-content h1 {
-    font-size: 40px;
+    font-size: 30px;
+  }
+  .about-content p {
+    padding-top: 20px;
+  }
+  li .logo {
+    display: none;
   }
 }
